@@ -1,24 +1,94 @@
 aid: kwh-analytics
-name: Kwh Analytics
-description: 'Kwh Analytics is a company surfaced as a portfolio company of anthemis and added to the
-  API Evangelist network as a stub for enrichment. Sector: climate. This profile is a lead awaiting the
-  enrichment pipeline.'
+name: kWh Analytics
+description: 'kWh Analytics is a Beaverton, Oregon based managing general agent and data-analytics
+  firm that underwrites property and performance insurance for renewable energy assets — solar,
+  wind, and battery storage. Founded in 2012 and acquired by specialist insurer Beazley in 2023,
+  the company operates what it describes as the industry''s largest solar performance database,
+  covering roughly 30% of U.S. solar assets across 300,000+ renewable energy assets and $100B+
+  in loss data. Its HelioStats platform ingests unstructured asset production documents (via
+  AWS S3, Box, Dropbox, email attachment, or API) and applies OCR and machine learning to extract,
+  validate, standardize, benchmark, and enrich operating data for investors, lenders, and asset
+  owners. Commercial products include data-driven Property Insurance, the Solar Revenue Put
+  credit enhancement, the Wind Proxy Hedge, and the SolarScape market intelligence offering.
+  kWh Analytics also publishes the annual Solar Risk Assessment industry report. There is no
+  public developer portal, published API reference, or machine-readable API specification —
+  data delivery and the HelioStats ingest API are arranged through enterprise engagement.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kwhanalytics.com/wp-content/uploads/2025/02/kwh-logo-main.svg
 url: https://raw.githubusercontent.com/api-evangelist/kwh-analytics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - anthemis
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Climate
+- Solar
+- Wind
+- Energy Storage
+- Renewable Energy
+- Insurance
+- Risk Management
+- Analytics
+- Data Intelligence
 apis: []
+common:
+- type: Website
+  url: https://kwhanalytics.com/
+- type: About
+  url: https://kwhanalytics.com/about/
+- type: Login
+  url: https://heliostats.kwhanalytics.com/authentication
+- type: Blog
+  url: https://kwhanalytics.com/blog/
+- type: BlogRSS
+  url: https://kwhanalytics.com/blog/feed/
+- type: Support
+  url: https://kwhanalytics.com/contact-us/
+- type: GitHubOrganization
+  url: https://github.com/kwhanalytics
+- type: PrivacyPolicy
+  url: https://kwhanalytics.com/privacy-policy/
+- type: CookiePolicy
+  url: https://kwhanalytics.com/cookie-policy/
+- type: Complaints
+  url: https://kwhanalytics.com/complaints/
+- type: Careers
+  url: https://kwhanalytics.com/careers/
+- type: Insights
+  url: https://kwhanalytics.com/insights/
+- type: Report
+  url: https://kwhanalytics.com/industry-report/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/kwh-analytics/
+- type: Twitter
+  url: https://x.com/kwhanalytics
+- type: LLMsTxt
+  url: llms/kwh-analytics-llms.txt
+- type: DomainSecurity
+  url: security/kwh-analytics-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
