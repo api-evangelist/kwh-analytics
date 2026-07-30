@@ -1,0 +1,41 @@
+generated: '2026-07-19'
+method: searched
+source: live HTTPS probes of kWh Analytics hosts
+result: none
+note: >-
+  No /.well-known/ discovery documents are published on any kWh Analytics host. Recorded here
+  as a negative result so re-runs do not re-probe blindly. No WellKnown or SecurityTxt pointer
+  is wired in apis.yml because nothing was found.
+hosts:
+- host: https://kwhanalytics.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /robots.txt
+    status: 200
+  - path: /sitemap.xml
+    status: 200
+- host: https://heliostats.kwhanalytics.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /openapi.json
+    status: 404
+  - path: /swagger.json
+    status: 404
+  - path: /api/docs
+    status: 404
+  - path: /api/schema
+    status: 404

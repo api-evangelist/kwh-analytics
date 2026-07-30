@@ -1,0 +1,52 @@
+# kWh Analytics
+
+> kWh Analytics is a managing general agent and data-analytics firm underwriting property and
+> performance insurance for renewable energy assets — solar, wind, and battery storage. Founded
+> 2012, headquartered in Beaverton, Oregon, acquired by Beazley in 2023. It operates a large
+> solar performance database (~30% of U.S. solar assets; 300,000+ renewable energy assets;
+> $100B+ in loss data) and the HelioStats data platform. There is no public developer portal,
+> API reference, or machine-readable API specification.
+
+## APIs
+
+- No public API. The HelioStats platform accepts document ingest over AWS S3, Box, Dropbox,
+  email attachment, or an API arranged through enterprise engagement; that interface is not
+  publicly documented and no OpenAPI, AsyncAPI, or GraphQL specification is published.
+
+## Products
+
+- [HelioStats](https://kwhanalytics.com/solutions/data-intelligence-services/): AI/OCR platform that extracts, validates, standardizes, benchmarks, and enriches unstructured renewable-asset production data.
+- [Property Insurance](https://kwhanalytics.com/solutions/property-insurance/): data-driven property coverage for renewable energy assets.
+- [Performance Insurance](https://kwhanalytics.com/solutions/performance-insurance/): includes the Solar Revenue Put and the Wind Proxy Hedge.
+- [SolarScape](https://kwhanalytics.com/solarscape-main/): solar market intelligence offering.
+
+## Sectors
+
+- [Solar](https://kwhanalytics.com/sectors/solar/)
+- [Wind](https://kwhanalytics.com/sectors/wind/)
+- [Battery Storage](https://kwhanalytics.com/sectors/battery-storage/)
+
+## Docs
+
+- [Company website](https://kwhanalytics.com/)
+- [About / timeline](https://kwhanalytics.com/about/)
+- [Insights](https://kwhanalytics.com/insights/)
+- [Blog](https://kwhanalytics.com/blog/) ([RSS](https://kwhanalytics.com/blog/feed/))
+- [Solar Risk Assessment industry report](https://kwhanalytics.com/industry-report/)
+- [Contact](https://kwhanalytics.com/contact-us/)
+- [HelioStats sign-in](https://heliostats.kwhanalytics.com/authentication)
+- [GitHub organization](https://github.com/kwhanalytics)
+
+## Legal
+
+- [Privacy Policy](https://kwhanalytics.com/privacy-policy/)
+- [Cookie Policy](https://kwhanalytics.com/cookie-policy/)
+- [Complaints](https://kwhanalytics.com/complaints/)
+
+## Notes
+
+- No /.well-known/ discovery documents, no llms.txt, no security.txt, no status page, no
+  changelog, no public pricing, no terms-of-service page, and no first-party SDKs or CLI were
+  found as of 2026-07-19.
+- The GitHub organization github.com/kwhanalytics publishes internal CI/CD (Concourse) and
+  Docker/PostGIS tooling plus a fork of NREL rdtools — no client libraries.
