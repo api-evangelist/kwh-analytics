@@ -13,6 +13,17 @@ description: 'kWh Analytics is a Beaverton, Oregon based managing general agent 
   kWh Analytics also publishes the annual Solar Risk Assessment industry report. There is no
   public developer portal, published API reference, or machine-readable API specification —
   data delivery and the HelioStats ingest API are arranged through enterprise engagement.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
