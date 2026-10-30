@@ -64,30 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-kWh Analytics is a Beaverton, Oregon based managing general agent and data-analytics firm that
-underwrites property and performance insurance for renewable energy assets — solar, wind, and
-battery storage. Founded in 2012 and acquired by specialist insurer Beazley in 2023, the company
-operates what it describes as the industry's largest solar performance database, covering roughly
-30% of U.S. solar assets across 300,000+ renewable energy assets and $100B+ in loss data.
+kWh Analytics is a Beaverton, Oregon based managing general agent and data-analytics firm that underwrites property and performance insurance for renewable energy assets — solar, wind, and battery storage. Founded in 2012 and acquired by specialist insurer Beazley in 2023, the company operates what it describes as the industry's largest solar performance database, covering roughly 30% of U.S. solar assets across 300,000+ renewable energy assets and $100B+ in loss data. Its HelioStats platform ingests unstructured asset production documents (via AWS S3, Box, Dropbox, email attachment, or API) and applies OCR and machine learning to extract, validate, standardize, benchmark, and enrich operating data for investors, lenders, and asset owners. Commercial products include data-driven Property Insurance, the Solar Revenue Put credit enhancement, the Wind Proxy Hedge, and the SolarScape market intelligence offering. kWh Analytics also publishes the annual Solar Risk Assessment industry report. There is no public developer portal, published API reference, or machine-readable API specification — data delivery and the HelioStats ingest API are arranged through enterprise engagement.
 
-Its HelioStats platform ingests unstructured asset production documents (via AWS S3, Box, Dropbox,
-email attachment, or API) and applies OCR and machine learning to extract, validate, standardize,
-benchmark, and enrich operating data. Commercial products include data-driven Property Insurance,
-the Solar Revenue Put, the Wind Proxy Hedge, and the SolarScape market intelligence offering.
+**Areas:** Company · Climate · Solar · Wind · Energy Storage · Renewable Energy · Insurance · Risk Management · Analytics · Data Intelligence
 
-## API surface
+## kWh Analytics on APIs.io
 
-**No public API.** As of 2026-07-19 there is no developer portal, API reference, sign-up flow,
-sandbox, SDK, CLI, changelog, status page, or machine-readable specification (OpenAPI, AsyncAPI,
-GraphQL). The HelioStats ingest API is referenced in marketing copy as one of several document
-submission channels but is not publicly documented — access is arranged through enterprise
-engagement. This repo therefore carries identity and probe artifacts only; no API artifacts have
-been fabricated.
+Everything profiled for kWh Analytics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kwh-analytics/](https://apis.io/providers/kwh-analytics/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-- `llms/kwh-analytics-llms.txt` — generated llms.txt from the catalog and site research.
-- `security/kwh-analytics-domain-security.yml` — probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC.
-- `well-known/kwh-analytics-well-known.yml` — negative result record for `/.well-known/` probes.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Backed by: anthemis. Owned by Beazley (2023).
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kwh Analytics Domain Security](https://apis.io/security/kwh-analytics/kwh-analytics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://kwhanalytics.com/)
+- [Support](https://kwhanalytics.com/contact-us/)
+- [Blog](https://kwhanalytics.com/blog/)
+- [Privacy policy](https://kwhanalytics.com/privacy-policy/)
+- [GitHub](https://github.com/kwhanalytics)
+
+## API Evangelist rating
+
+**Kin Score 9.5** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 17.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 8.8** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kwh-analytics/](https://apis.io/providers/kwh-analytics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for kWh Analytics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kwh-analytics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
